@@ -4,4 +4,4 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: echo MARKER_B_C1
+      run: exit 1
