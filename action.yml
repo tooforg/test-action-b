@@ -1,0 +1,7 @@
+name: test action b
+description: test 1109 dependency
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo MARKER_B_C1
